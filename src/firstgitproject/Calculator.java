@@ -22,10 +22,17 @@ public class Calculator {
         int diif=num1-num2;
         System.out.println(num1+" - "+num2+" = "+diif);
     }
+     public static void max(int num1, int num2){
+        
+ 
+        System.out.println("Max("+num1+","+num2+") = "+Math.max(num1, num2));
+    }
      public static void abs(int num1){
         
         int abs= Math.abs(num1);
         System.out.println("|"+num1+"| = "+abs);
     }
+     
+     
     
 }

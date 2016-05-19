@@ -19,6 +19,7 @@ public class FirstGitProject {
         Calculator.sum(10, 15);
         Calculator.diff(15, 10);
         Calculator.abs(-25);
+        Calculator.max(50, 80);
     }
     
 }
