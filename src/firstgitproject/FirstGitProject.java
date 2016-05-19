@@ -20,6 +20,7 @@ public class FirstGitProject {
         Calculator.diff(15, 10);
         Calculator.prod(5, 4);
         Calculator.div(15, 3);
+        Calculator.abs(-25);
     }
     
 }

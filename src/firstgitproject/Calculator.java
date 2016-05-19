@@ -31,6 +31,11 @@ public class Calculator {
         
         int div=num1/num2;
         System.out.println(num1+" / "+num2+" = "+div);
+     }
+     public static void abs(int num1){
+        
+        int abs= Math.abs(num1);
+        System.out.println("|"+num1+"| = "+abs);
     }
     
 }
