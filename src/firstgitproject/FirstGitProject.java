@@ -17,6 +17,7 @@ public class FirstGitProject {
     public static void main(String[] args) {
         // TODO code application logic here
         Calculator.sum(10, 15);
+        Calculator.diff(15, 10);
     }
     
 }
