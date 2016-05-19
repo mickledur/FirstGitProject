@@ -11,10 +11,16 @@ package firstgitproject;
  */
 public class Calculator {
     
-    public static void somme(int num1, int num2){
+    public static void sum(int num1, int num2){
         
         int sum=num1+num2;
         System.out.println(num1+" + "+num2+" = "+sum);
+    }
+    
+     public static void diff(int num1, int num2){
+        
+        int diif=num1-num2;
+        System.out.println(num1+" + "+num2+" = "+diif);
     }
     
 }
