@@ -16,6 +16,7 @@ public class FirstGitProject {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Calculator.somme(10, 15);
     }
     
 }
