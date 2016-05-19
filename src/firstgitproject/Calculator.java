@@ -22,5 +22,15 @@ public class Calculator {
         int diif=num1-num2;
         System.out.println(num1+" - "+num2+" = "+diif);
     }
+     public static void prod(int num1, int num2){
+        
+        int prod=num1*num2;
+        System.out.println(num1+" x "+num2+" = "+prod);
+    }
+     public static void div(int num1, int num2){
+        
+        int div=num1/num2;
+        System.out.println(num1+" / "+num2+" = "+div);
+    }
     
 }
