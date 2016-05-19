@@ -32,6 +32,16 @@ public class Calculator {
  
         System.out.println("Min("+num1+","+num2+") = "+Math.min(num1, num2));
     }
+     public static void prod(int num1, int num2){
+        
+        int prod=num1*num2;
+        System.out.println(num1+" x "+num2+" = "+prod);
+    }
+     public static void div(int num1, int num2){
+        
+        int div=num1/num2;
+        System.out.println(num1+" / "+num2+" = "+div);
+     }
      public static void abs(int num1){
         
         int abs= Math.abs(num1);
